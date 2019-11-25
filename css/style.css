@@ -5,7 +5,8 @@
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  scroll-behavior: smooth; }
 
 body {
   padding: 0;
@@ -38,11 +39,13 @@ h1, h2, h3, h4, p {
     justify-content: center; }
   .top-header__logo-block {
     position: relative; }
+    .top-header__logo-block img {
+      max-width: 200px; }
   .top-header p {
     position: absolute;
     top: 83%;
-    left: 44%;
-    font-size: 11px;
+    left: 32%;
+    font-size: 7px;
     text-transform: uppercase;
     font-style: italic; }
 
@@ -52,7 +55,7 @@ h1, h2, h3, h4, p {
   min-height: 400px;
   background-position: center;
   background-size: cover;
-  padding: 100px 0 150px 0; }
+  padding: 60px 0 60px 0; }
   .first-section h1 {
     font-weight: 700;
     font-size: 42px;
@@ -77,7 +80,7 @@ h1, h2, h3, h4, p {
   color: #FFFFFF; }
 
 .second-section {
-  padding: 60px 0; }
+  padding: 20px 0 30px 0; }
 
 .stingray__img {
   padding-bottom: 30px; }
