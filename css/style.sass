@@ -5,6 +5,7 @@ $font-bold: 700
 $accent-color: #955331
 $base-font-color: #FFFFFF
 $base-font-size: 16px
+$modal-bg: #222222
 
 *
 	box-sizing: border-box
@@ -13,6 +14,7 @@ html
 	font-family: $font-style
 	font-size: $base-font-size
 	color: $base-font-color
+	scroll-behavior: smooth
 
 body
 	padding: 0
@@ -45,11 +47,13 @@ h1,h2,h3,h4,p,
 		justify-content: center
 	&__logo-block
 		position: relative
+		img
+			max-width: 200px
 	p
 		position: absolute
 		top: 83%
-		left: 44%
-		font-size: 11px
+		left: 32%
+		font-size: 7px
 		text-transform: uppercase
 		font-style: italic
 .first-section
@@ -58,7 +62,7 @@ h1,h2,h3,h4,p,
 	min-height: 400px
 	background-position: center
 	background-size: cover
-	padding: 100px 0 150px 0
+	padding: 60px 0 60px 0
 	h1
 		font-weight: $font-bold
 		font-size: 42px
@@ -83,7 +87,7 @@ h1,h2,h3,h4,p,
 	color: $base-font-color
 
 .second-section
-	padding: 60px 0
+	padding: 20px 0 30px 0
 
 .stingray__img
 	padding-bottom: 30px
